@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Feedback</title>
+</head>
+<body style="background-color: rgb(215, 145, 145);">
+    <h2 align="center" bgcolor="blue">1.User Feedback</h2>
+    <table align="center" bgcolor="gray" style="color:rgb(11, 29, 71)">
+    <form>
+        <tr>
+        <td>First Name:</td><td><Input type="text" placeholder="First_Name"  required name="Uname"></td>
+        </tr>
+        <tr>
+        <td>last Name:</td><td><input type="text" placeholder="Last_Name"></td>
+        </tr>
+        <tr>
+            <td>Email</td><td><input type="email" name="email" placeholder="Enter your Address"></td>
+        </tr>
+        <tr>
+            <td>Message</td><td><textarea type="text" placeholder="Write Your Feedback"></textarea></td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"><input type="submit"> <input type="reset"></td>    
+        </tr>
+    </form>
+    </table>
+    <hr>
+
+
+    <h2 align="center" bgcolor="blue">2.Sign Up Form</h2>
+    <table align="center" bgcolor="gray" style="color:rgb(11, 29, 71)">
+        <form>
+            <tr>
+            <td>User_Name:</td><td><Input type="text" placeholder="User_Name"  required name="Uname"></td>
+            </tr>
+            <tr>
+                <td>Date_Of_Birth:</td><td><input type="date"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">Gender</td><td>Male<input type="radio" name="Gender" id=""></td>
+            </tr>
+            <tr>
+                <td>Female<input type="radio" name="Gender" id=""></td>
+            </tr>
+            <tr>
+                <td>New Password:</td><td><input type="password" required></td>
+            </tr>
+            <tr>
+                <td>Conforim Password:</td><td><input type="password" required></td>
+            </tr>
+            
+            <tr align="center">
+                <td colspan="2"><input type="submit"> <input type="reset"></td>    
+            </tr>
+            
+        </form>
+    </table>
+    <hr>
+    <h2 align="center" bgcolor="blue">3.Order Form For An Online Store</h2>
+    <table align="center" bgcolor="gray" style="color:rgb(11, 29, 71)">
+        <form>
+            <tr>
+            <td>First Name:</td><td><Input type="text" placeholder="First_Name"  required name="Uname"></td>
+            </tr>
+            <tr>
+            <td>last Name:</td><td><input type="text" placeholder="Last_Name"></td>
+            </tr>
+            <tr>
+                <td>Email</td><td><input type="email" name="email" placeholder="Enter your Address"></td>
+            </tr>
+            <tr>
+                <td>Select The Product:</td><td><select Name="Product">
+                                <option value="ntg">Select</option>
+                                <option value="f1">refreezerator</option>
+                                <option value="ac2">Air Conditioner</option>
+                                <option value="mc3">Washing Machine</option>
+                                <option value="sm4">Smart Phone</option> 
+                                <option value="tv4">Television</option>
+                                <option value="lp5">Laptop</option>
+                </select>
+                </td><br>
+            </tr>
+            <tr>
+                <td>Select The Quantity:</td><td><select Name="quantity">
+                                <option value="1">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option> 
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                </select>
+                </td><br>
+            </tr>
+            <tr>
+                <td>Shipping Address</td><td><textarea type="text" placeholder="Shipping Adderss"></textarea></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><input type="submit"> <input type="reset"></td>    
+            </tr>
+        </form>
+    </table>
+    <hr>
+    <h2 align="center">4.Search Form</h2>
+    <form action="/search" method="GET" align="center">
+        <input type="text" id="search-input" name="q" placeholder="Enter your search query">
+        <button type="submit" id="search-btn">Search</button>
+    </form>
+
+
+</body>
+</html>
